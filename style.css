@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 96%;
+    margin: 20px auto;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-left: 2px solid;
+}
+.book{
+    width: 48%;
+    float: left;
+    background: #fff;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.icon{
+    width: 15%;
+    float: left;
+    line-height: 100px;
+}
+button{
+    background:cyan;
+    border-radius: 7px;
+    padding: 6px 6px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+}
